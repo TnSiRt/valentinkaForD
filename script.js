@@ -53,7 +53,7 @@ nextBtn.addEventListener('click', () => {
 // ---------- Второй слайд ----------
 const photoContainer1 = document.createElement('div');
 photoContainer1.classList.add('photo-card');
-photoContainer1.innerHTML = `<img style="height:300px;" src='image/photoA.jpg' alt='Фото A' /><p style="width:300px;">Наши чувства сильнее любого растояния</p>`;
+photoContainer1.innerHTML = `<img style="height:300px;" src='static/image/photoA.jpg' alt='Фото A' /><p style="width:300px;">Наши чувства сильнее любого растояния</p>`;
 photoContainer1.style.position = 'absolute';
 photoContainer1.style.top = '100px';
 photoContainer1.style.left = '-650px';
@@ -61,7 +61,7 @@ photoContainer1.style.transition = 'all 1s ease';
 
 const photoContainer2 = document.createElement('div');
 photoContainer2.classList.add('photo-card');
-photoContainer2.innerHTML = `<img style="height:300px; margin-right:30px;" src='image/photoB.jpg' alt='Фото B' /><img style="height:300px;" src='image/photoBA.jpg' alt='Фото C' /><p style="width:300px;">За это время у нас появились определенные ассациации</p>`;
+photoContainer2.innerHTML = `<img style="height:300px; margin-right:30px;" src='static/image/photoB.jpg' alt='Фото B' /><img style="height:300px;" src='static/image/photoBA.jpg' alt='Фото C' /><p style="width:300px;">За это время у нас появились определенные ассациации</p>`;
 photoContainer2.style.position = 'absolute';
 photoContainer2.style.bottom = '100px';
 photoContainer2.style.right = '-850px';
@@ -77,19 +77,19 @@ function animatePhotoCards() {
 
 // ---------- Третий слайд: слайдер фоток ----------
 const collagePhotos = [
-    'image/photo1.jpg',
-    'image/photo2.jpg',
-    'image/photo3.jpg',
-    'image/photo4.jpg',
-    'image/photo5.jpg',
-    'image/photo6.jpg',
-    'image/photo7.jpg',
-    'image/photo8.jpg',
-    'image/photo9.jpg',
-    'image/photo10.jpg',
-    'image/photo11.jpg',
-    'image/photo12.jpg',
-    'image/photo13.jpg',
+    'static/image/photo1.jpg',
+    'static/image/photo2.jpg',
+    'static/image/photo3.jpg',
+    'static/image/photo4.jpg',
+    'static/image/photo5.jpg',
+    'static/image/photo6.jpg',
+    'static/image/photo7.jpg',
+    'static/image/photo8.jpg',
+    'static/image/photo9.jpg',
+    'static/image/photo10.jpg',
+    'static/image/photo11.jpg',
+    'static/image/photo12.jpg',
+    'static/image/photo13.jpg',
 ];
 
 let currentIndex = 0;
